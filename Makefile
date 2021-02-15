@@ -1,7 +1,7 @@
 #
 # Makefile
 #
-# Copyright (C) 2010 - 2016 Creytiv.com
+# Copyright (C) 2010 - 2016 Alfred E. Heggestad
 #
 
 
@@ -26,4 +26,3 @@ download:
 	git clone https://github.com/creytiv/rem.git
 	git clone https://github.com/baresip/re.git
 	patch -d rem -p1 < rem-patch-makefile
-	patch -d baresip -p1 < baresip-patch-ios-audio-config
